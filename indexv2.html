@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSC: Ecological Liberation Recruitment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styling using the Inter font */
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+            filter: drop-shadow(0 0 5px rgba(74, 222, 128, 0.7)); /* Neon effect */
+        }
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(74, 222, 128, 0.9);
+        }
+        .section-padding {
+            padding: 5rem 1rem;
+        }
+        .dark-card {
+            background-color: #1F2937; /* Dark Gray */
+            border: 1px solid #374151;
+        }
+        /* Custom link styling for the new section */
+        .wiki-link {
+            text-decoration: underline;
+            text-decoration-color: #4ADE80;
+            text-underline-offset: 4px;
+        }
+        .wiki-link:hover {
+            color: #4ADE80;
+        }
+        @media (min-width: 640px) {
+            .section-padding {
+                padding: 8rem 4rem;
+            }
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'main-bg': '#121212',       /* Near Black - Core Background */
+                        'main-text': '#E5E7EB',     /* Light Gray - Primary Text */
+                        'accent': '#4ADE80',        /* Sharp Neon Green - CTA/Highlight */
+                        'secondary-bg': '#1F2937',  /* Dark Gray - Section/Card BG */
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-main-bg text-main-text">
+
+    <header class="sticky top-0 z-50 bg-main-bg border-b border-gray-700">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold uppercase text-accent tracking-widest hover:text-green-300 transition duration-300">
+                GSC / Spear
+            </a>
+            <div class="hidden md:flex space-x-8 font-medium">
+                <a href="#about" class="text-main-text hover:text-accent transition duration-300">The Fight</a>
+                <a href="#evidence" class="text-main-text hover:text-accent transition duration-300">Evidence</a>
+                <a href="#pillars" class="text-main-text hover:text-accent transition duration-300">Our Pillars</a>
+                <a href="#join" class="text-main-text hover:text-accent transition duration-300">The Vetting</a>
+            </div>
+            <button class="md:hidden text-main-text hover:text-accent focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section-padding text-center bg-secondary-bg">
+            <div class="max-w-5xl mx-auto">
+                <h1 class="text-6xl md:text-7xl font-extrabold text-main-text mb-6 leading-tight uppercase tracking-wide">
+                    NATURE IS YOUR ONLY MASTER.
+                </h1>
+                <p class="text-2xl text-gray-400 mb-10 max-w-3xl mx-auto italic font-light">
+                    "Predetermined Class is not your destiny." Don't be a slave to the rich who exploit our home.
+                </p>
+                <a href="#join" class="cta-button inline-block bg-accent text-gray-900 font-extrabold py-4 px-12 rounded-xl text-xl transition duration-300 uppercase tracking-wider">
+                    Join the GSC Today &rarr;
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="section-padding bg-main-bg">
+            <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <span class="text-sm font-semibold uppercase tracking-widest text-accent">The Fight</span>
+                    <h2 class="text-4xl font-bold text-main-text">
+                        Against Exploitation, For the Wild.
+                    </h2>
+                    <p class="text-gray-400 leading-relaxed">
+                        The **Green Spear Collective (GSC)** is an autonomous, online network of activists dedicated to ecological liberation. We recognize that the destruction of the planet is a direct result of capitalistic exploitation and class hierarchy. Our mission is to organize, educate, and take decentralized action to protect the natural world.
+                    </p>
+                    <p class="text-gray-400 leading-relaxed italic border-l-4 border-accent pl-4">
+                        We don't watch the world burn. We fight back. Our strength is in solidarity and a shared allegiance to the Earth.
+                    </p>
+                </div>
+                <div class="p-6 dark-card rounded-2xl shadow-2xl">
+                    <img src="https://placehold.co/600x400/101010/4ADE80?text=SYMBOL+OF+SOLIDARITY" 
+                         alt="Activist symbol representing nature and resistance" 
+                         class="rounded-xl w-full h-auto object-cover border-4 border-accent opacity-80"/>
+                </div>
+            </div>
+        </section>
+
+        <section id="evidence" class="section-padding bg-secondary-bg border-y border-gray-700">
+            <div class="max-w-7xl mx-auto">
+                <div class="mb-12">
+                    <span class="text-sm font-semibold uppercase tracking-widest text-accent">The Evidence</span>
+                    <h2 class="text-4xl font-bold text-main-text mt-2 mb-6">
+                        Archives of Exploitation
+                    </h2>
+                    <p class="text-xl text-gray-400 max-w-3xl">
+                        The ruling class claims their profits are progress. History proves they are a plague. Educate yourself on the crimes they try to bury.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="dark-card p-8 rounded-xl hover:border-accent transition duration-300">
+                        <h3 class="text-2xl font-bold text-white mb-4 flex items-center">
+                            <svg class="w-6 h-6 mr-3 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                            Catastrophic Negligence
+                        </h3>
+                        <p class="text-gray-400 mb-6">
+                            Corporations consistently prioritize speed and cost-cutting over safety, leading to disasters that wipe out ecosystems and communities.
+                        </p>
+                        <ul class="space-y-3 text-sm text-gray-300">
+                            <li>
+                                &bull; <a href="https://en.wikipedia.org/wiki/Deepwater_Horizon_oil_spill" target="_blank" class="wiki-link">Deepwater Horizon Oil Spill</a>: The largest marine oil spill in history, driven by BP's reckless cost-cutting.
+                            </li>
+                            <li>
+                                &bull; <a href="https://en.wikipedia.org/wiki/Bhopal_disaster" target="_blank" class="wiki-link">Bhopal Disaster</a>: Thousands killed instantly by Union Carbide's gas leak in India; a prime example of corporate colonialism.
+                            </li>
+                            <li>
+                                &bull; <a href="https://en.wikipedia.org/wiki/Exxon_Valdez_oil_spill" target="_blank" class="wiki-link">Exxon Valdez</a>: 11 million gallons of crude oil dumped into Prince William Sound, destroying local wildlife for decades.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="dark-card p-8 rounded-xl hover:border-accent transition duration-300">
+                        <h3 class="text-2xl font-bold text-white mb-4 flex items-center">
+                            <svg class="w-6 h-6 mr-3 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.384-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+                            Chemical Warfare on Nature
+                        </h3>
+                        <p class="text-gray-400 mb-6">
+                            They poison our water and blood for profit, knowing the risks decades before the public finds out.
+                        </p>
+                        <ul class="space-y-3 text-sm text-gray-300">
+                            <li>
+                                &bull; <a href="https://en.wikipedia.org/wiki/PFAS" target="_blank" class="wiki-link">PFAS "Forever Chemicals"</a>: Manufactured by 3M and DuPont, these toxins are now found in the blood of 99% of humans.
+                            </li>
+                            <li>
+                                &bull; <a href="https://en.wikipedia.org/wiki/Love_Canal" target="_blank" class="wiki-link">Love Canal Tragedy</a>: 21,000 tons of toxic waste buried by Hooker Chemical, causing birth defects and leukemia in local families.
+                            </li>
+                             <li>
+                                &bull; <a href="https://en.wikipedia.org/wiki/Microplastics" target="_blank" class="wiki-link">Microplastics</a>: The petrochemical industry's refusal to manage waste has led to plastic infiltrating the furthest depths of the ocean.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="dark-card p-8 rounded-xl hover:border-accent transition duration-300">
+                        <h3 class="text-2xl font-bold text-white mb-4 flex items-center">
+                            <svg class="w-6 h-6 mr-3 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            Theft & Lies
+                        </h3>
+                        <p class="text-gray-400 mb-6">
+                            When they aren't destroying nature directly, they are lying about it or stealing public resources to sell back to us.
+                        </p>
+                        <ul class="space-y-3 text-sm text-gray-300">
+                            <li>
+                                &bull; <a href="https://en.wikipedia.org/wiki/Volkswagen_emissions_scandal" target="_blank" class="wiki-link">Volkswagen Emissions Scandal</a>: "Dieselgate"—deliberately cheating emissions tests while poisoning the air with Nitrogen Oxide.
+                            </li>
+                            <li>
+                                &bull; <a href="https://en.wikipedia.org/wiki/Nestl%C3%A9#Water" target="_blank" class="wiki-link">Nestlé Water Theft</a>: Draining aquifers in drought-stricken communities to sell water back in plastic bottles.
+                            </li>
+                            <li>
+                                &bull; <a href="https://en.wikipedia.org/wiki/Greenwashing" target="_blank" class="wiki-link">Greenwashing</a>: The corporate tactic of spending more on marketing "eco-friendliness" than on actually reducing impact.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="dark-card p-8 rounded-xl hover:border-accent transition duration-300">
+                        <h3 class="text-2xl font-bold text-white mb-4 flex items-center">
+                            <svg class="w-6 h-6 mr-3 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            Global Scars
+                        </h3>
+                        <p class="text-gray-400 mb-6">
+                            The scale of their destruction is not local; it is planetary. They treat the Amazon and the Arctic as balance sheet items.
+                        </p>
+                        <ul class="space-y-3 text-sm text-gray-300">
+                            <li>
+                                &bull; <a href="https://en.wikipedia.org/wiki/Deforestation_of_the_Amazon_rainforest" target="_blank" class="wiki-link">Amazon Deforestation</a>: Driven by industrial cattle ranching and soy production for global markets.
+                            </li>
+                            <li>
+                                &bull; <a href="https://en.wikipedia.org/wiki/Environmental_impact_of_mining" target="_blank" class="wiki-link">Extractivism</a>: The removal of natural resources for export with minimal processing, leaving behind toxic wastelands.
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="pillars" class="section-padding bg-main-bg">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-12">
+                    <span class="text-sm font-semibold uppercase tracking-widest text-accent">The Pillars of Action</span>
+                    <h2 class="text-4xl font-bold text-main-text mt-2">
+                        What We Offer Our Comrades
+                    </h2>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="dark-card p-6 rounded-xl shadow-xl hover:shadow-2xl transition duration-300 border-t-4 border-accent">
+                        <div class="text-accent mb-4">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3 text-main-text uppercase">Decentralized Direct Action</h3>
+                        <p class="text-gray-400">Secure, encrypted, and decentralized channels for organizing and executing meaningful campaigns that disrupt exploitation.</p>
+                    </div>
+
+                    <div class="dark-card p-6 rounded-xl shadow-xl hover:shadow-2xl transition duration-300 border-t-4 border-accent">
+                        <div class="text-accent mb-4">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5s3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18s-3.332.477-4.5 1.253"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3 text-main-text uppercase">Critical Education & Training</h3>
+                        <p class="text-gray-400">Access to resources on ecological theory, security culture, and practical activist skills to empower every member.</p>
+                    </div>
+
+                    <div class="dark-card p-6 rounded-xl shadow-xl hover:shadow-2xl transition duration-300 border-t-4 border-accent">
+                        <div class="text-accent mb-4">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a8.975 8.975 0 01-2.997-2.997M12 9.003h.01M12 9.003l-.01.01"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3 text-main-text uppercase">Unbroken Mutual Aid</h3>
+                        <p class="text-gray-400">Join a network built on trust and respect, offering support and collective strength against oppressive structures.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="join" class="section-padding bg-secondary-bg">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <span class="text-sm font-semibold uppercase tracking-widest text-accent">The Vetting</span>
+                    <h2 class="text-4xl font-bold text-main-text mt-2">
+                        How to Join the Collective
+                    </h2>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 text-center">
+                    
+                    <div class="dark-card p-8 rounded-xl shadow-xl">
+                        <div class="text-5xl font-extrabold mb-3 text-accent">1</div>
+                        <h3 class="text-2xl font-semibold mb-4 uppercase">Declaration of Intent</h3>
+                        <p class="text-gray-400">Complete the secure intake form, affirming your ideological commitment to ecological liberation and our tenets.</p>
+                    </div>
+
+                    <div class="dark-card p-8 rounded-xl shadow-xl">
+                        <div class="text-5xl font-extrabold mb-3 text-accent">2</div>
+                        <h3 class="text-2xl font-semibold mb-4 uppercase">Security Vetting</h3>
+                        <p class="text-gray-400">An established comrade will conduct an interview to ensure mutual trust and adherence to security culture.</p>
+                    </div>
+
+                    <div class="dark-card p-8 rounded-xl shadow-xl">
+                        <div class="text-5xl font-extrabold mb-3 text-accent">3</div>
+                        <h3 class="text-2xl font-semibold mb-4 uppercase">Integration & Mission</h3>
+                        <p class="text-gray-400">Gain access to the collective's channels and begin your contribution to the ongoing fight.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding bg-main-bg border-t border-gray-700">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-4xl font-bold mb-4 uppercase text-accent">
+                    You Don't Have To Watch The World Burn.
+                </h2>
+                <p class="text-xl text-gray-400 mb-8 font-light">
+                    The time for passive consumption is over. If your principles align with ecological sovereignty and anti-exploitation, your place is with us.
+                </p>
+                <a href="#join" class="cta-button inline-block bg-accent text-gray-900 font-extrabold py-5 px-16 rounded-xl text-2xl transition duration-300 uppercase tracking-wider">
+                    RISE UP NOW
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:flex justify-between items-center">
+            <div class="mb-4 md:mb-0">
+                <p class="text-sm text-gray-500">&copy; 2025 **Green Spear Collective**. Solidarity Forever.</p>
+            </div>
+            <div class="flex justify-center md:justify-end space-x-6">
+                <a href="#" class="text-accent hover:text-green-300 transition duration-300">Tenets</a>
+                <a href="#" class="text-accent hover:text-green-300 transition duration-300">Resources</a>
+                <a href="#" class="text-accent hover:text-green-300 transition duration-300">Contact [Secure Channel]</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
