@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,6 +31,11 @@
             color: white;
             border-color: #3A8108;
             box-shadow: 0 0 30px rgba(58, 129, 8, 0.6); /* Signal Green Glow */
+        }
+        /* Specific hover for the secondary UK button */
+        .uk-btn:hover {
+            background-color: #3EB049 !important; /* Lighter Signal Green on hover */
+            box-shadow: 0 0 30px rgba(62, 176, 73, 0.6);
         }
         .section-padding {
             padding: 5rem 1rem;
@@ -283,19 +289,37 @@
                     <p class="text-xl text-gray-400 font-light leading-relaxed">
                         We organize in the shadows to act in the light. Signal is our primary hub for education, vetting, and coordination. 
                         <br><br>
-                        <span class="text-white font-semibold">Important:</span> Upon joining, you will be in a read-only quarantine zone. You must navigate to the <span class="text-accent font-mono">#start-here</span> channel/info to begin your integration.
+                        <span class="text-white font-semibold">Important:</span> All new members enter a read-only quarantine zone. You must navigate to the <span class="text-accent font-mono">#start-here</span> channel/info to begin your integration.
                     </p>
 
-                    <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="https://signal.group/#CjQKILNU8EJFcwlyMY8m0jSNZmYxobcMNKLeo5Y7hQqyoedvEhAsFyN5nsWJOIZ29assrpfq" target="_blank" class="cta-button signal-btn flex items-center justify-center bg-accent text-gray-900 font-bold py-4 px-8 rounded-xl text-lg w-full sm:w-auto">
-                            <svg class="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 2C6.477 2 2 6.477 2 12c0 1.944.557 3.753 1.523 5.318L2 22l4.897-1.503A9.957 9.957 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm1 14H8v-2h5v2zm3-3H8v-2h8v2z"/>
-                            </svg>
-                            Join Chat
-                        </a>
-                        <span class="text-gray-500 text-sm flex items-center">
-                             Requires Verification
-                        </span>
+                    <div class="space-y-8 mt-10">
+                        <div class="border-l-4 border-accent pl-4">
+                            <h3 class="text-2xl font-bold text-white mb-2 uppercase">Global Network</h3>
+                            <p class="text-gray-400 mb-4">Main hub for education, strategy, and worldwide coordination.</p>
+                            <div class="flex flex-col sm:flex-row gap-4 items-center">
+                                <a href="https://signal.group/#CjQKILNU8EJFcwlyMY8m0jSNZmYxobcMNKLeo5Y7hQqyoedvEhAsFyN5nsWJOIZ29assrpfq" target="_blank" class="cta-button signal-btn flex items-center justify-center bg-accent text-gray-900 font-bold py-3 px-8 rounded-xl text-lg w-full sm:w-auto">
+                                    <svg class="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 2C6.477 2 2 6.477 2 12c0 1.944.557 3.753 1.523 5.318L2 22l4.897-1.503A9.957 9.957 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm1 14H8v-2h5v2zm3-3H8v-2h8v2z"/>
+                                    </svg>
+                                    Join Global Chat
+                                </a>
+                                <span class="text-gray-500 text-sm flex items-center">Requires Vetting</span>
+                            </div>
+                        </div>
+
+                        <div class="border-l-4 border-signal pl-4 pt-4">
+                            <h3 class="text-2xl font-bold text-white mb-2 uppercase">UK Offshoot</h3>
+                            <p class="text-gray-400 mb-4">Coordinating localized action and organizing within the United Kingdom.</p>
+                            <div class="flex flex-col sm:flex-row gap-4 items-center">
+                                <a href="https://signal.group/#CjQKIKyHBqduAw4WbpDSndGo4sOnCQR49fb0BlSMfn7Kq1sCEhBRpKAMA9ZGwfN6qvu2yBKP" target="_blank" class="cta-button uk-btn flex items-center justify-center bg-signal-dark text-white font-bold py-3 px-8 rounded-xl text-lg w-full sm:w-auto">
+                                    <svg class="w-6 h-6 mr-3" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 2C6.477 2 2 6.477 2 12c0 1.944.557 3.753 1.523 5.318L2 22l4.897-1.503A9.957 9.957 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm1 14H8v-2h5v2zm3-3H8v-2h8v2z"/>
+                                    </svg>
+                                    Join UK Chat
+                                </a>
+                                <span class="text-gray-500 text-sm flex items-center">Requires Vetting</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -312,7 +336,7 @@
                         </div>
                         <div>
                             <h3 class="text-xl font-bold text-white">Green Spear Collective</h3>
-                            </div>
+                        </div>
                     </div>
 
                     <div class="space-y-3 font-mono text-sm text-gray-400">
@@ -361,4 +385,3 @@
     </footer>
 </body>
 </html>
-
